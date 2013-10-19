@@ -1,15 +1,13 @@
-/**
- * 自定义 ListView。
- * 和原ListView的不同是 这个从不滚动(滑动)，只上下翻页
- * */
-
 package com.example.listviewtext;
 
 import android.content.Context;
 import android.util.AttributeSet;
 import android.view.MotionEvent;
 import android.widget.ListView;
-
+/**
+ * 自定义 ListView。
+ * 和原ListView的不同是 这个从不滚动(滑动)，只上下翻页,另外滚动条总显示。
+ * */
 public class MyListView extends ListView {
 
 	// y轴移动距离大于30时才翻页

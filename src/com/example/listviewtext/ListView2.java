@@ -9,6 +9,11 @@ import android.widget.TextView;
 
 import com.example.listviewtext.MyListView.PageChanger;
 
+/**
+ * this may be a fail.
+ * linearlayout包含ListView，已经不符合原意了。
+ *  
+ * */
 public class ListView2 extends LinearLayout implements PageChanger{
 
 	private LinearLayout mLl;
